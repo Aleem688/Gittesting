@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[createAppartmentReg....>TestScript execution started]]>
+    </line>
+    <line>
+      <![CDATA[createAppartmentReg.....>TestScript failed]]>
+    </line>
+    <line>
+      <![CDATA[createIndividualRegistration....>TestScript execution started]]>
+    </line>
+    <line>
+      <![CDATA[createIndividualRegistration.....>TestScript execution started]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-08-10T13:08:01 IST" name="Default suite" finished-at="2023-08-10T13:10:07 IST" duration-ms="126348">
+    <groups>
+    </groups>
+    <test started-at="2023-08-10T13:08:01 IST" name="Default test" finished-at="2023-08-10T13:10:07 IST" duration-ms="126348">
+      <class name="IntegrationTestCases.IntegrationAppartmentRegistrationTestCase">
+        <test-method is-config="true" signature="connectToDataBase()[pri:0, instance:IntegrationTestCases.IntegrationAppartmentRegistrationTestCase@3270d194]" started-at="2023-08-10T13:08:01 IST" name="connectToDataBase" finished-at="2023-08-10T13:08:01 IST" duration-ms="470" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- connectToDataBase -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:IntegrationTestCases.IntegrationAppartmentRegistrationTestCase@3270d194]" started-at="2023-08-10T13:08:02 IST" name="openBrowser" finished-at="2023-08-10T13:09:30 IST" duration-ms="88386" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:IntegrationTestCases.IntegrationAppartmentRegistrationTestCase@3270d194]" started-at="2023-08-10T13:09:30 IST" name="loginToApplication" finished-at="2023-08-10T13:09:33 IST" duration-ms="2712" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="createAppartmentReg()[pri:0, instance:IntegrationTestCases.IntegrationAppartmentRegistrationTestCase@3270d194]" started-at="2023-08-10T13:09:33 IST" name="createAppartmentReg" finished-at="2023-08-10T13:09:34 IST" duration-ms="1341" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.fail(Assert.java:116)
+at IntegrationTestCases.IntegrationAppartmentRegistrationTestCase.createAppartmentReg(IntegrationAppartmentRegistrationTestCase.java:75)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[createAppartmentReg....>TestScript execution started]]>
+            </line>
+            <line>
+              <![CDATA[createAppartmentReg.....>TestScript failed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createAppartmentReg -->
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:IntegrationTestCases.IntegrationAppartmentRegistrationTestCase@3270d194]" started-at="2023-08-10T13:09:34 IST" name="closeApplication" finished-at="2023-08-10T13:09:34 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:IntegrationTestCases.IntegrationAppartmentRegistrationTestCase@3270d194]" started-at="2023-08-10T13:09:34 IST" name="closeBrowser" finished-at="2023-08-10T13:09:37 IST" duration-ms="3158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="closeDataBase()[pri:0, instance:IntegrationTestCases.IntegrationAppartmentRegistrationTestCase@3270d194]" started-at="2023-08-10T13:10:08 IST" name="closeDataBase" finished-at="2023-08-10T13:10:08 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDataBase -->
+      </class> <!-- IntegrationTestCases.IntegrationAppartmentRegistrationTestCase -->
+      <class name="SmokeTestCases.IndividualRegsmokeTestCase">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:SmokeTestCases.IndividualRegsmokeTestCase@7b98f307]" started-at="2023-08-10T13:09:37 IST" name="openBrowser" finished-at="2023-08-10T13:09:40 IST" duration-ms="2442" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:SmokeTestCases.IndividualRegsmokeTestCase@7b98f307]" started-at="2023-08-10T13:09:40 IST" name="loginToApplication" finished-at="2023-08-10T13:09:43 IST" duration-ms="3010" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="createIndividualRegistration()[pri:0, instance:SmokeTestCases.IndividualRegsmokeTestCase@7b98f307]" started-at="2023-08-10T13:09:43 IST" name="createIndividualRegistration" finished-at="2023-08-10T13:10:04 IST" duration-ms="21332" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[createIndividualRegistration....>TestScript execution started]]>
+            </line>
+            <line>
+              <![CDATA[createIndividualRegistration.....>TestScript execution started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createIndividualRegistration -->
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:SmokeTestCases.IndividualRegsmokeTestCase@7b98f307]" started-at="2023-08-10T13:10:04 IST" name="closeApplication" finished-at="2023-08-10T13:10:04 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:SmokeTestCases.IndividualRegsmokeTestCase@7b98f307]" started-at="2023-08-10T13:10:04 IST" name="closeBrowser" finished-at="2023-08-10T13:10:07 IST" duration-ms="3098" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- SmokeTestCases.IndividualRegsmokeTestCase -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
