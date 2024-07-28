@@ -75,7 +75,7 @@ public class BaseClass {
 		String URL = flib.getPropertyFileData("url");
 		driver.get(URL);
 		wlib.waitForPageLoad(driver);
-//		ApplicationHomePage ap = new ApplicationHomePage(driver);
+//		ApplicationHomePage a = new ApplicationHomePage(driver);
 //	    ap.getLgbtn().click();
 //		ap.getRegisterbtn().click();
 //		LoginPage l = new LoginPage(driver);

@@ -7,20 +7,17 @@ public class DataProviderTest {
 	
 	@Test(dataProvider ="data")
 	
-	public void getDataFromDataProvider(String branch, String location )
+	public void getDataFromDataProvider(String branch, String location, long empno)
 	{
-	System.out.println("BRANCH----->"+branch+"LOCATION---->"+location);
+	System.out.println("BRANCH----->"+branch+"LOCATION---->"+location+"employess---->"+empno);
 	
 	}
-	
-	
-	
 	
 	@DataProvider
 	
 	public Object[][] data()
 	{
-		Object[][] obj = {{"Qspider","bangalore"},{"testyantra","kattriguppe"}};
+		Object[][] obj = {{"Qspider","bangalore",1000},{"testyantra","kattriguppe",800}};
 		
 //		obj[0][0]="Qspider";
 //		obj[0][1]="bangalore";
@@ -34,6 +31,7 @@ public class DataProviderTest {
 	public Object[][] data1()
 	{
 		Object[][] obj = new Object[2][3];
+		
 		obj[0][0]="Bangalore";
 		obj[0][1]="gulbarga";
 		obj[0][2]=600;
