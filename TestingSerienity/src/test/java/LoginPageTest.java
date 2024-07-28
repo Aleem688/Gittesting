@@ -24,7 +24,7 @@ public class LoginPageTest extends BaseClass {
 		
 		page.setCreatepwdtx("arshad.$12345");
 		
-		page.setCreatepwdtx("aarshadfcg");
+		page.setCreatepwdtx("arshad");
 		
 		page.setConfpwdtx("arshad.$12345");
 		
