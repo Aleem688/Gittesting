@@ -3,11 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestDemo.StringClassPractice2">
+      <class name="IntegrationTestCases.IntegrationAppartmentRegistrationTestCase">
         <methods>
-          <include name="printPrimeNumber"/>
+          <include name="connectToDataBase"/>
+          <include name="closeBrowser"/>
+          <include name="loginToApplication"/>
+          <include name="closeDataBase"/>
+          <include name="createAppartmentReg"/>
+          <include name="openBrowser"/>
+          <include name="closeApplication"/>
         </methods>
-      </class> <!-- TestDemo.StringClassPractice2 -->
+      </class> <!-- IntegrationTestCases.IntegrationAppartmentRegistrationTestCase -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
